@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /internal/
+Allow: /
+Sitemap: https://yourusername.github.io/northbridge-solutions/sitemap.xml
