@@ -1,0 +1,19 @@
+:root{--accent:#0366d6;--bg:#f6f8fa;--muted:#666}
+*{box-sizing:border-box}
+body{font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin:0; color:#222; background:var(--bg)}
+.wrap{max-width:980px;margin:0 auto;padding:20px}
+.site-header{background:#fff;border-bottom:1px solid #e6e9ee}
+.site-header .wrap{display:flex;align-items:center;justify-content:space-between}
+#brand{font-size:20px;margin:0;padding:12px 0}
+.nav{list-style:none;margin:0;padding:0;display:flex;gap:12px}
+.nav a{display:inline-block;padding:14px;color:var(--accent);text-decoration:none}
+.nav a.active{font-weight:700}
+.hero{background:#fff;padding:22px;margin:18px 0;border-radius:6px;box-shadow:0 1px 4px rgba(0,0,0,.04)}
+.about, .highlight, .news{background:#fff;padding:18px;margin:12px 0;border-radius:6px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.card{padding:12px;border-radius:6px;border:1px solid #eef2f7;background:linear-gradient(180deg,#fff,#fbfdff)}
+.people{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+.person{background:#fff;padding:14px;border-radius:6px;border:1px solid #eef2f7}
+.site-footer{margin-top:30px;padding:18px 0;text-align:center;color:var(--muted)}
+.hidden-links{margin-top:18px;padding:12px;background:#fff;border-radius:6px;border:1px dashed #e0e6f0;color:#333}
+.quick-facts{display:flex;gap:10px;list-style:none;padding:0;margin:6px 0}
